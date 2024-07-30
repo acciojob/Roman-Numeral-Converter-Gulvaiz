@@ -9,10 +9,6 @@ function convertToRoman(num) {
       6:['I', 1]
     };
 
-  //your
-    let romanValue = '';
-
-    // Iterate over the symbols and values
     let romanValue = "";
     const romanSymbols = Object.values(obj);
 
